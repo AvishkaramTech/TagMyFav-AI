@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TagMyFav_AI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdaptiveCards" Version="3.0.0" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.5" />
+    <PackageReference Include="Azure.Core" Version="1.32.0" />
+    <PackageReference Include="Dapper" Version="2.0.138" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.26" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.20.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.20.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.20.0" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.20.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Avish.Common">
+      <HintPath>C:\Users\acer\Desktop\Avishkaram\avish\Avish.Common\bin\Debug\netcoreapp3.1\Avish.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Avish.Core">
+      <HintPath>C:\Users\acer\Desktop\Avishkaram\avish\Avish.Common\bin\Debug\netcoreapp3.1\Avish.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Avish.Infra">
+      <HintPath>C:\Users\acer\Desktop\Avishkaram\avish\Avish.Common\bin\Debug\netcoreapp3.1\Avish.Infra.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

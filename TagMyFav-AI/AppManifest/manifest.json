@@ -1,0 +1,74 @@
+{
+	"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+	"version": "1.0.0",
+	"manifestVersion": "1.16",
+	"id": "4e849bb6-81f9-499b-970b-24c27c0ed5b1",
+	"packageName": "com.package.name",
+	"name": {
+		"short": "TagMyFavAI",
+		"full": "Tag your favourite Url, Message, Email and save to the cloud"
+	},
+	"developer": {
+		"name": "Avishkaram Technologies Pvt Ltd",
+		"mpnId": "",
+		"websiteUrl": "https://tagmyfav.com",
+		"privacyUrl": "https://tagmyfav.com/privacy",
+		"termsOfUseUrl": "https://tagmyfav.com/tou"
+	},
+	"description": {
+		"short": "Tag your favourite links to the cloud",
+		"full": "Tag your favourite links to the cloud"
+	},
+	"icons": {
+		"outline": "outline.png",
+		"color": "color.png"
+	},
+	"accentColor": "#2E7AA2",	
+	"bots": [
+		{
+			"botId": "a8db0cbe-6135-4896-a58a-bc8724b12c34",
+			"scopes": [
+				"personal",
+				"team",
+				"groupchat"
+			],
+			"commandLists": [
+				{
+					"commands": [
+						{
+							"title": "help",
+							"description": "Get help from the bot"
+						}
+					],
+					"scopes": [
+						"personal",
+						"groupchat"
+					]
+				},
+				{
+					"commands": [
+						{
+							"title": "help",
+							"description": "Get help from the bot"
+						}
+					],
+					"scopes": [
+						"team"
+					]
+				}
+			],
+			"isNotificationOnly": false,
+			"supportsCalling": false,
+			"supportsVideo": false,
+			"supportsFiles": false
+		}
+	],	
+	"validDomains": [
+		"*.ngrok.io",
+		"app.tagmyfav.com"
+	],
+	"webApplicationInfo": {
+		"id": "939188de-32ad-4119-bebb-37d1e7bc24ed",
+		"resource": "api://0481-45-139-189-29.ngrok-free.app/939188de-32ad-4119-bebb-37d1e7bc24ed"
+	}
+}
